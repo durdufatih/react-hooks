@@ -1,11 +1,33 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.cardClass{
+  
+  height: 200px;
+  width: 40%;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: aqua;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardFunction{
+  
+  height: 200px;
+  width: 40%;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: rgb(219, 101, 32);
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

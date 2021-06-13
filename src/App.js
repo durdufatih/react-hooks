@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import { ClassStateComponent } from "./components/ClassStateComponent";
+import FunctionStateComponent from "./components/FunctionStateComponent";
 
 function App() {
   return (
     <div className="App">
-     Hello
+      <div className="cardClass"><ClassStateComponent /></div>
+      <div className="cardFunction"><FunctionStateComponent /></div>      
     </div>
   );
 }
