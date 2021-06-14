@@ -3,6 +3,7 @@ import { ClassStateComponent } from "./components/ClassStateComponent";
 import { ClassUseEffectComponent } from "./components/ClassUseEffectComponent";
 import FunctionStateComponent from "./components/FunctionStateComponent";
 import FunctionUseEffectComponent from "./components/FunctionUseEffectComponent";
+import GithubViewComponent from "./components/GithubViewComponent";
 import NumberContext from "./components/NumberContext";
 import UseContextComponent from "./components/UseContextComponent";
 
@@ -24,6 +25,9 @@ function App() {
         </div>
         <div className="cardContext">
           <UseContextComponent />
+        </div>
+        <div className="cardContext">
+          <GithubViewComponent />
         </div>
       </div>
     </NumberContext.Provider>
