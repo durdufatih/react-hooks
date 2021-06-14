@@ -28,11 +28,31 @@
 }
 
 .cardContext{
-  height: 200px;
+  height: 100px;
   width: 100%;
   border-radius: 5px;
   margin: 10px;
   background-color: rgb(32, 219, 41);
+}
+
+@media only screen and (max-width: 600px) {
+  .cardFunction{
+  
+    height: 400px;
+    width: 40%;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(219, 101, 32);
+  }
+  .cardClass{
+  
+    height: 400px;
+    width: 40%;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: aqua;
+  }
+  
 }
 
 
